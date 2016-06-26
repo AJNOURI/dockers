@@ -27,6 +27,10 @@ RUN mkdir -p /export/docker
 ADD nfs-run.sh /usr/local/bin/nfs-run
 ADD nfs/exports /etc/exports
 
+RUN mkdir /DATA
+
+VOLUME /DATA
+
 RUN exportfs -a
 
 RUN chmod +x /usr/local/bin/nfs-run

@@ -1,1 +1,1 @@
-/export/docker *(rw,insecure,sync,no_subtree_check,fsid=0,no_root_squash)
+/DATA *(rw,insecure,sync,no_subtree_check,fsid=0,no_root_squash)
