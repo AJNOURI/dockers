@@ -1,8 +1,0 @@
-web:
-    hostname: web
-    container_name: web
-    image: pierophp/web:php7
-    ports:
-        - "8002:80"
-    volumes:
-        - ./workdir/www//:/var/www/
