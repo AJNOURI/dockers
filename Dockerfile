@@ -8,7 +8,7 @@ ENV TERM xterm
 
 # Upgrade
 RUN apt-get update && \
-    apt-get upgrade -y && \
+    apt-get upgrade -y
 
 # NFS Server
 RUN apt-get install -y nfs-kernel-server
